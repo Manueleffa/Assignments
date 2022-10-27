@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6em;
+
+    display: flex;
+    place-items: center;
+    height: 100vh;
+}
+
+main{
+    width: 50%;
+    margin: auto;
+
+    display: grid;
+    grid-template-areas: "a b c";
+}
+
+.container{
+    width: 100%;
+    padding: 2em;  
+}
+
+.box-sedan{
+    background-color: hsl(31, 77%, 52%);
+    grid-area: a;
+}
+
+.box-suv{
+    background-color: hsl(184, 100%, 22%);
+    grid-area: b;
+}
+
+.box-luxury{
+    background-color: hsl(179, 100%, 13%);
+    grid-area: c;
+}
+
+img{
+    margin: 10px 0;
+}
+
+h3{
+    color: hsl(0, 0%, 95%);
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 20px 0;
+    font-size: 15;
+}
+
+button{
+    background-color:transparent;
+    color:hsl(0, 0%, 95%);
+    margin-top: 50px;
+    padding: 10px 0;
+    width: 60%;
+    font-size: 15px;
+    border: 1px solid;
+    border-radius: 50px;
+    border-color:hsl(0, 0%, 95%);
+    cursor: pointer;
+}
